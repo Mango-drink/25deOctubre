@@ -213,6 +213,18 @@ const CODIGOS = {
         nombres: ["Adulto 1", "Adulto 2"],
         mensaje: "¡Irma Rangel! Me encantará contar con su compañía. Tienen 2 lugares reservados para su familia. ¡Nos vemos el 25 de octubre!"
     },
+    "FAM-DOMINGUEZ": {
+        invitados: 5,
+        display: "Roberto Domínguez",
+        nombres: ["Adulto 1", "Adulto 2","Adulto 3","Adulto 4", "Niñ@"],
+        mensaje: "¡Roberto Domínguez! A llegado el momento de celebrar y me encantará contar con su compañía. Reservé 5 lugares para la familia: 4 adultos y 1 niño ¡Nos vemos el 25 de octubre!"
+    },
+    "FAM-PEREZ": {
+        invitados: 4,
+        display: "Hugo Pérez",
+        nombres: ["Adulto 1", "Adulto 2","Adulto 3", "Niñ@"],
+        mensaje: "¡Hugo Pérez! Me encantará contar con su compañía. Tienen 4 lugares reservados para su familia: 3 adultos y 1 niño ¡Nos vemos el 25 de octubre!"
+    },
 };
 
 // ===== Helpers reutilizables =====
