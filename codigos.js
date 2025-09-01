@@ -144,7 +144,7 @@ const CODIGOS = {
     "FAM-FRANCO04": {
         invitados: 5,
         display: "Yuliana Franco",
-        nombres: ["Adulto 1", "Adulto 2", "Adulto 3", "Adulto 4, "Adulto 5"],
+        nombres: ["Adulto 1", "Adulto 2", "Adulto 3", "Adulto 4", "Adulto 5"],
         mensaje: "¡Yuliana Franco! Me encantará contar con su compañía. Tienen 5 lugares reservados para su familia. ¡Nos vemos el 25 de octubre!"
     },
     "SRA-LIDIA": {
