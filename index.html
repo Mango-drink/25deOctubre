@@ -42,7 +42,7 @@
             <div id="codigo-error" class="text-red-600 mt-3 hidden">Código inválido. Intenta de nuevo.</div>
 
             <!-- Botón para entrar sin código -->
-             <!--<button id="btn-guest"
+            <!--<button id="btn-guest"
                 class="mt-3 w-full border border-[#001742] text-[#001742] font-semibold py-3 px-6 rounded-full hover:bg-white">
                 Entrar sin código
             </button>-->
@@ -373,7 +373,7 @@
                 <div id="gallery-modal"
                     class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
                     <button id="prev-image" class="absolute left-5 text-white text-4xl font-bold">❮</button>
-                    <img id="modal-image" src="" alt="Recuerdo ampliado"
+                    <img id="modal-image" src="" alt=""
                         class="max-h-[90vh] max-w-full rounded-lg shadow-2xl border-4 border-white">
                     <button id="next-image" class="absolute right-5 text-white text-4xl font-bold">❯</button>
                     <button id="modal-close" class="absolute top-4 right-8 text-white text-5xl font-bold">×</button>
@@ -388,12 +388,12 @@
                 <h2 class="font-great-vibes text-6xl md:text-7xl text-[#001742] mb-12">Un Mosaico de Momentos</h2>
                 <div
                     class="relative mx-auto max-w-4xl rounded-xl overflow-hidden shadow-xl transition duration-300 hover:shadow-2xl">
-                    <!-- CAMBIA ESTA URL por la de tu imagen de mosaico -->
-                    <img src="fotos/CollageXimena.png" alt="Mosaico de recuerdos de Ximena"
-                        class="w-full h-auto object-cover">
+                    <img src="fotos/CollageXimena.png" data-full="fotos/CollageXimena-HD.png"
+                        alt="Mosaico de recuerdos de Ximena" class="w-full h-auto object-cover cursor-zoom-in">
                 </div>
             </div>
         </section>
+
 
         <!-- Mesa de Regalos -->
         <section class="py-24 px-6 bg-[#f5f7fa]">
@@ -450,10 +450,10 @@
 
         <!-- Botón de descarga -->
         <div class="text-center py-8">
-        <button id="btn-descargar"
-            class="bg-[#0a2d6c] text-white font-bold py-3 px-6 rounded-full hover:bg-[#001742] transition">
-            Descargar invitación
-        </button>
+            <button id="btn-descargar"
+                class="bg-[#0a2d6c] text-white font-bold py-3 px-6 rounded-full hover:bg-[#001742] transition">
+                Descargar invitación
+            </button>
         </div>
 
 
@@ -509,10 +509,7 @@
     <!-- Lógica principal -->
     <script src="main.js"></script>
 
-
-
-
-    <!--Elección de familia sin codigo-->
+    <!--Elección de familia sin codigo
     <div id="picker-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-[70] hidden">
         <div class="bg-white rounded-2xl shadow-xl max-w-lg w-[92%] mx-auto mt-16 p-6">
             <h3 class="text-xl font-semibold text-[#001742] mb-3 text-center">Selecciona tu familia</h3>
@@ -521,12 +518,9 @@
             <div id="picker-lista" class="max-h-64 overflow-auto space-y-2"></div>
             <div class="mt-4 flex gap-2">
                 <button id="picker-cancelar" class="flex-1 py-2 rounded border">Cancelar</button>
-                <button id="picker-confirmar" class="flex-1 py-2 rounded bg-[#001742] text-white"
-                    disabled>Continuar</button>
+                <button id="picker-confirmar" class="flex-1 py-2 rounded bg-[#001742] text-white" disabled>Continuar</button>
             </div>
-        </div>
-    </div>
-
+            </div></div> -->
 
 
 </body>
